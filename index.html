@@ -456,7 +456,7 @@
     <h2>Welcome</h2>
     <p>Welcome to this data collection form for the estimation of functional forms within the framework of the project led by the University of Sheffield and Universidad de los Andes (Bogotá, Colombia). 
       Here, you will be presented with a series of questions aimed at understanding more how mode preferences change when factors such as time, trips using active transport modes, car or bus, or journey enjoyment are considered.
-      Theses factors have been identified at a workshop held at the University of Sheffield on 16th November 2025 and we are asking for your help to turn what we learnt into actual numbers. 
+      These factors have been identified at a workshop held at the University of Sheffield on 16th November 2025 and we are asking for your help to turn what we learnt into actual numbers. 
       You will be asked to position sliders for 23 scenarios across 6 sections. The whole form takes approximately 8–12 minutes.</p>
     <p style="margin-top:.5rem">Participant details below are <strong>optional</strong> — fill in only what you're comfortable sharing.</p>
     <div class="participant-grid">
@@ -501,8 +501,8 @@
       <p class="case-scenario">You will route through roads with segregated and shared paths, depending on availability along your journey and your preferences. <em>Driving: expect ~12 min (very reliable). Cycling/walking: exactly 25 min.</em></p>
       <div class="slider-wrap">
         <div class="options-row">
-          <div class="option-label opt-a"><strong>Option A</strong>I'll drive if I have a car</div>
-          <div class="option-label opt-b"><strong>Option B</strong>I'll consider cycling, walking or wheeling</div>
+          <div class="option-label opt-a"><strong>Option A</strong>I'll drive if I have a car. Expect it will take 12 minutes. You can be quite certain of your arrival time.</div>
+          <div class="option-label opt-b"><strong>Option B</strong>I'll consider cycling, walking or wheeling. Expect it will take 25 minutes. You will arrive exactly 25 minutes after setting off.</div>
         </div>
         <input type="range" min="0" max="100" value="50" class="slider-input" id="S1_Case1" data-col="S1_Congestion_vs_ActiveTransport_Case1" oninput="updateSlider(this)">
         <div class="slider-ticks">
@@ -521,8 +521,9 @@
       <p class="case-scenario">You will route through roads with segregated and shared paths. <em>Driving: expect ~20 min (usually within ±5 min). Cycling/walking: exactly 25 min.</em></p>
       <div class="slider-wrap">
         <div class="options-row">
-          <div class="option-label opt-a"><strong>Option A</strong>I'll drive if I have a car</div>
-          <div class="option-label opt-b"><strong>Option B</strong>I'll consider cycling, walking or wheeling</div>
+          <div class="option-label opt-a"><strong>Option A</strong>I'll drive if I have a car. Expect it will take 20 minutes. 
+            Usually you are within 5 minutes of the expected time of arrival. </div>
+          <div class="option-label opt-b"><strong>Option B</strong>I'll consider cycling, walking or wheeling. Expect it will take 25 minutes. You will arrive exactly 25 minutes after setting off.</div>
         </div>
         <input type="range" min="0" max="100" value="50" class="slider-input" id="S1_Case2" data-col="S1_Congestion_vs_ActiveTransport_Case2" oninput="updateSlider(this)">
         <div class="slider-ticks"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div>
@@ -539,8 +540,10 @@
       <p class="case-scenario"><em>Driving: expect ~25 min with uncertainty (usually within ±10 min). Cycling/walking: exactly 25 min.</em></p>
       <div class="slider-wrap">
         <div class="options-row">
-          <div class="option-label opt-a"><strong>Option A</strong>I'll drive if I have a car</div>
-          <div class="option-label opt-b"><strong>Option B</strong>I'll consider cycling, walking or wheeling</div>
+          <div class="option-label opt-a"><strong>Option A</strong>I'll drive if I have a car. Expect it will take 20 minutes.
+          Usually you are within 5 minutes of the expected time of arrival.</div>
+          <div class="option-label opt-b"><strong>Option B</strong>I'll consider cycling, walking or wheeling. Expect it will take 25 minutes.
+          You will arrive exactly 25 minutes after setting off. </div>
         </div>
         <input type="range" min="0" max="100" value="50" class="slider-input" id="S1_Case3" data-col="S1_Congestion_vs_ActiveTransport_Case3" oninput="updateSlider(this)">
         <div class="slider-ticks"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div>
@@ -557,8 +560,10 @@
       <p class="case-scenario"><em>Driving: expect 30–35 min (can arrive 15 min late, hard to predict). Cycling/walking: exactly 25 min.</em></p>
       <div class="slider-wrap">
         <div class="options-row">
-          <div class="option-label opt-a"><strong>Option A</strong>I'll drive if I have a car</div>
-          <div class="option-label opt-b"><strong>Option B</strong>I'll consider cycling, walking or wheeling</div>
+          <div class="option-label opt-a"><strong>Option A</strong>I'll drive if I have a car. Expect it will take 30-35 minutes but with some uncertainty.
+          You can arrive 15 minutes later than expected, but it is difficult to predict. </div>
+          <div class="option-label opt-b"><strong>Option B</strong>I'll consider cycling, walking or wheeling. Expect it will take 25 minutes. 
+          You will arrive exactly 25 minutes after setting off. </div>
         </div>
         <input type="range" min="0" max="100" value="50" class="slider-input" id="S1_Case4" data-col="S1_Congestion_vs_ActiveTransport_Case4" oninput="updateSlider(this)">
         <div class="slider-ticks"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div>
@@ -575,8 +580,10 @@
       <p class="case-scenario"><em>Driving: at least 40–45 min (arrival time very hard to predict). Cycling/walking: exactly 25 min.</em></p>
       <div class="slider-wrap">
         <div class="options-row">
-          <div class="option-label opt-a"><strong>Option A</strong>I'll drive if I have a car</div>
-          <div class="option-label opt-b"><strong>Option B</strong>I'll consider cycling, walking or wheeling</div>
+          <div class="option-label opt-a"><strong>Option A</strong>I'll drive if I have a car. Expect it will take at least 40-45 minutes.
+          Hard to predict what time you will arrive at destination. </div>
+          <div class="option-label opt-b"><strong>Option B</strong>I'll consider cycling, walking or wheeling. Expect it will take 25 minutes. 
+          You will arrive exactly 25 minutes after setting off. </div>
         </div>
         <input type="range" min="0" max="100" value="50" class="slider-input" id="S1_Case5" data-col="S1_Congestion_vs_ActiveTransport_Case5" oninput="updateSlider(this)">
         <div class="slider-ticks"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div>
@@ -659,8 +666,8 @@
       <p class="case-scenario">Travelling is stressful, boring, uncomfortable, or unpleasant.</p>
       <div class="slider-wrap">
         <div class="options-row">
-          <div class="option-label opt-a"><strong>Option A</strong>Minimising travel time is <strong>not</strong> important to you. You're okay to spend longer on the journey.</div>
-          <div class="option-label opt-b"><strong>Option B</strong>Minimising travel time is <strong>very</strong> important to you. You wonder how many more things you could do instead.</div>
+          <div class="option-label opt-a"><strong>Option A</strong>Minimising travel time is <b>not</b> important to you. You're okay to spend longer on the journey.</div>
+          <div class="option-label opt-b"><strong>Option B</strong>Minimising travel time is <b>very</b> important to you. You wonder how many more things you could do instead.</div>
         </div>
         <input type="range" min="0" max="100" value="50" class="slider-input" id="S3_Case1" data-col="S3_JourneyEnjoyment_vs_TimeImportance_Case1" oninput="updateSlider(this)">
         <div class="slider-ticks"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div>
@@ -677,8 +684,8 @@
       <p class="case-scenario">Frustrations and discomforts of transit are often the norm, but interrupted by enough positive moments to keep the journey from being a total loss.</p>
       <div class="slider-wrap">
         <div class="options-row">
-          <div class="option-label opt-a"><strong>Option A</strong>Minimising travel time is <strong>not</strong> important to you.</div>
-          <div class="option-label opt-b"><strong>Option B</strong>Minimising travel time is <strong>very</strong> important to you.</div>
+          <div class="option-label opt-a"><strong>Option A</strong>Minimising travel time is <b>not</b> important to you.</div>
+          <div class="option-label opt-b"><strong>Option B</strong>Minimising travel time is <b>very</b> important to you.</div>
         </div>
         <input type="range" min="0" max="100" value="50" class="slider-input" id="S3_Case2" data-col="S3_JourneyEnjoyment_vs_TimeImportance_Case2" oninput="updateSlider(this)">
         <div class="slider-ticks"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div>
@@ -695,8 +702,8 @@
       <p class="case-scenario">Travelling often feels boring or uncomfortable, but generally tolerable. You do not enjoy the journey, but you can cope with it and there are definitely positive aspects.</p>
       <div class="slider-wrap">
         <div class="options-row">
-          <div class="option-label opt-a"><strong>Option A</strong>Minimising travel time is <strong>not</strong> important to you.</div>
-          <div class="option-label opt-b"><strong>Option B</strong>Minimising travel time is <strong>very</strong> important to you.</div>
+          <div class="option-label opt-a"><strong>Option A</strong>Minimising travel time is <b>not</b> important to you.</div>
+          <div class="option-label opt-b"><strong>Option B</strong>Minimising travel time is <b>very</b> important to you.</div>
         </div>
         <input type="range" min="0" max="100" value="50" class="slider-input" id="S3_Case3" data-col="S3_JourneyEnjoyment_vs_TimeImportance_Case3" oninput="updateSlider(this)">
         <div class="slider-ticks"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div>
@@ -713,8 +720,8 @@
       <p class="case-scenario">Travelling itself feels pleasant and rewarding. It takes the time it takes but you are comfortable with the experience of the trip.</p>
       <div class="slider-wrap">
         <div class="options-row">
-          <div class="option-label opt-a"><strong>Option A</strong>Minimising travel time is <strong>not</strong> important to you.</div>
-          <div class="option-label opt-b"><strong>Option B</strong>Minimising travel time is <strong>very</strong> important to you.</div>
+          <div class="option-label opt-a"><strong>Option A</strong>Minimising travel time is <b>not</b> important to you.</div>
+          <div class="option-label opt-b"><strong>Option B</strong>Minimising travel time is <b>very</b> important to you.</div>
         </div>
         <input type="range" min="0" max="100" value="50" class="slider-input" id="S3_Case4" data-col="S3_JourneyEnjoyment_vs_TimeImportance_Case4" oninput="updateSlider(this)">
         <div class="slider-ticks"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div>
@@ -731,8 +738,8 @@
       <p class="case-scenario">Travelling feels relaxing, pleasant, or engaging, and you genuinely enjoy spending time during the journey.</p>
       <div class="slider-wrap">
         <div class="options-row">
-          <div class="option-label opt-a"><strong>Option A</strong>Minimising travel time is <strong>not</strong> important to you.</div>
-          <div class="option-label opt-b"><strong>Option B</strong>Minimising travel time is <strong>very</strong> important to you.</div>
+          <div class="option-label opt-a"><strong>Option A</strong>Minimising travel time is <b>not</b> important to you.</div>
+          <div class="option-label opt-b"><strong>Option B</strong>Minimising travel time is <b>very</b> important to you.</div>
         </div>
         <input type="range" min="0" max="100" value="50" class="slider-input" id="S3_Case5" data-col="S3_JourneyEnjoyment_vs_TimeImportance_Case5" oninput="updateSlider(this)">
         <div class="slider-ticks"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div>
@@ -751,7 +758,7 @@
       </div>
     </div>
     <div class="section-context">
-      In the following situations, imagine that the <strong>freedom you perceive to choose between different transport modes varies</strong>. For each situation, consider the extent to which you would feel you have alternative modal choices — practical, accessible transport options that allow you to decide how to travel.
+      In the following situations, imagine that the <b>freedom you perceive to choose between different transport modes varies</b>. For each situation, consider the extent to which you would feel you have alternative modal choices — practical, accessible transport options that allow you to decide how to travel.
     </div>
 
     <!-- S4 C1 -->
@@ -781,8 +788,8 @@
       <p class="case-scenario">You prefer to arrive eventually, but you do not feel any pressure to shorten the journey.</p>
       <div class="slider-wrap">
         <div class="options-row">
-          <div class="option-label opt-a"><strong>Option A</strong>I would stick to my usual transport choice.</div>
-          <div class="option-label opt-b"><strong>Option B</strong>I would explore alternative modes.</div>
+          <div class="option-label opt-a"><strong>Option A</strong>I would stick to my usual transport choice — there is only one transport mode realistically available.</div>
+          <div class="option-label opt-b"><strong>Option B</strong>I would explore alternative modes — I perceive multiple transport modes as genuinely available, accessible, and practical.</div>
         </div>
         <input type="range" min="0" max="100" value="50" class="slider-input" id="S4_Case2" data-col="S4_TimeImportance_vs_AltModalChoices_Case2" oninput="updateSlider(this)">
         <div class="slider-ticks"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div>
@@ -799,8 +806,8 @@
       <p class="case-scenario">You neither seek to reduce travel time nor deliberately prolong the journey; both shorter and longer trips feel equally acceptable.</p>
       <div class="slider-wrap">
         <div class="options-row">
-          <div class="option-label opt-a"><strong>Option A</strong>I would stick to my usual transport choice.</div>
-          <div class="option-label opt-b"><strong>Option B</strong>I would explore alternative modes.</div>
+          <div class="option-label opt-a"><strong>Option A</strong>I would stick to my usual transport choice — there is only one transport mode realistically available.</div>
+          <div class="option-label opt-b"><strong>Option B</strong>I would explore alternative modes — I perceive multiple transport modes as genuinely available, accessible, and practical.</div>
         </div>
         <input type="range" min="0" max="100" value="50" class="slider-input" id="S4_Case3" data-col="S4_TimeImportance_vs_AltModalChoices_Case3" oninput="updateSlider(this)">
         <div class="slider-ticks"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div>
@@ -817,8 +824,8 @@
       <p class="case-scenario">You generally prefer to arrive sooner and often feel that long journeys take time away from other things you would rather be doing.</p>
       <div class="slider-wrap">
         <div class="options-row">
-          <div class="option-label opt-a"><strong>Option A</strong>I would stick to my usual transport choice.</div>
-          <div class="option-label opt-b"><strong>Option B</strong>I would explore alternative modes.</div>
+          <div class="option-label opt-a"><strong>Option A</strong>I would stick to my usual transport choice — there is only one transport mode realistically available.</div>
+          <div class="option-label opt-b"><strong>Option B</strong>I would explore alternative modes — I perceive multiple transport modes as genuinely available, accessible, and practical.</div>
         </div>
         <input type="range" min="0" max="100" value="50" class="slider-input" id="S4_Case4" data-col="S4_TimeImportance_vs_AltModalChoices_Case4" oninput="updateSlider(this)">
         <div class="slider-ticks"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div>
@@ -835,8 +842,8 @@
       <p class="case-scenario">Minimising travel time is very important to you. You wonder how many more things you could do instead with that time.</p>
       <div class="slider-wrap">
         <div class="options-row">
-          <div class="option-label opt-a"><strong>Option A</strong>I would stick to my usual transport choice.</div>
-          <div class="option-label opt-b"><strong>Option B</strong>I would explore alternative modes.</div>
+          <div class="option-label opt-a"><strong>Option A</strong>I would stick to my usual transport choice — there is only one transport mode realistically available.</div>
+          <div class="option-label opt-b"><strong>Option B</strong>I would explore alternative modes — I perceive multiple transport modes as genuinely available, accessible, and practical.</div>
         </div>
         <input type="range" min="0" max="100" value="50" class="slider-input" id="S4_Case5" data-col="S4_TimeImportance_vs_AltModalChoices_Case5" oninput="updateSlider(this)">
         <div class="slider-ticks"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div>
@@ -937,7 +944,7 @@
     <div class="section-header">
       <div class="section-num">06</div>
       <div class="section-title-wrap">
-        <h2>Car trips and bus use</h2>
+        <h2>Car trips and perception of bus users</h2>
         <p style="font-size:13px;color:#888">How your car use relates to the proportion of journeys you make by bus</p>
       </div>
     </div>
@@ -1165,7 +1172,7 @@ function collectData() {
     S6_CarTrips_vs_BusUse_Case1: getSlider('S6_Case1'),
     S6_CarTrips_vs_BusUse_Case2: getSlider('S6_Case2'),
     // Comments
-    Comments: getField('f_comments'),
+    //Comments: getField('f_comments'),
   };
 }
 
