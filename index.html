@@ -471,24 +471,6 @@
       These factors have been identified at a workshop held at the University of Sheffield on 16th November 2025 and we are asking for your help to turn what we learnt into actual numbers. 
       You will be asked to position sliders for 23 scenarios across 6 sections. The whole form takes approximately 8–12 minutes.</p>
     <p style="margin-top:.5rem">Participant details below are <strong>optional</strong> — fill in only what you're comfortable sharing.</p>
-    <div class="participant-grid">
-      <div class="field-group">
-        <label>Participant ID</label>
-        <input type="text" id="f_participantId" placeholder="e.g. P001">
-      </div>
-      <div class="field-group">
-        <label>Email</label>
-        <input type="email" id="f_email" placeholder="optional">
-      </div>
-      <div class="field-group">
-        <label>City</label>
-        <input type="text" id="f_city" placeholder="e.g. Sheffield">
-      </div>
-      <div class="field-group">
-        <label>Country</label>
-        <input type="text" id="f_country" placeholder="e.g. United Kingdom">
-      </div>
-    </div>
   </div>
 
   <!-- ══════════════════════════════════════════════════════ SECTION 1 -->
@@ -767,7 +749,7 @@
     <div class="section-header">
       <div class="section-num">04</div>
       <div class="section-title-wrap">
-        <h2>Value given to travel time and alternative modal choices</h2>
+        <h2>Importance of minimising travel time and alternative modal choices</h2>
         <p style="font-size:13px;color:#888">How time pressure influences your perceived freedom to choose transport modes</p>
       </div>
     </div>
@@ -898,7 +880,7 @@ In the following situations, imagine that you may choose between travelling by c
       <div class="slider-wrap">
         <div class="options-row">
           <div class="option-label opt-a"><strong>Option A</strong>I would keep the number of daily car trips unchanged. Consider car to travel as the unique mode of transportation. A usual number of car trips is maintained.</div>
-          <div class="option-label opt-b"><strong>Option B</strong>I would reduce the number of my daily trips by car. There are car, moto or public transport. There is a slight reduction in the daily number of car trips.</div>
+          <div class="option-label opt-b"><strong>Option B</strong>I would reduce the number of my daily trips by car. There are acceptable alternative options i.e. car, motorbike, or public transport. There is a slight reduction in the daily number of car trips.</div>
         </div>
         <input type="range" min="0" max="100" value="50" class="slider-input" id="S5_Case1" data-col="S5_AltModalChoices_vs_CarTrips_Case1" oninput="updateSlider(this)">
         <div class="slider-ticks"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div>
@@ -915,8 +897,8 @@ In the following situations, imagine that you may choose between travelling by c
       <p class="case-scenario">I have a few viable alternatives to using the car, though none are clearly attractive.</p>
       <div class="slider-wrap">
         <div class="options-row">
-          <div class="option-label opt-a"><strong>Option A</strong>I would keep the number of daily car trips unchanged. There is a slight reduction in the daily number of car trips. A usual number of car trips is maintained.</div>
-          <div class="option-label opt-b"><strong>Option B</strong>I would reduce the number of my daily trips by car. There are car, motorbike, public transport or cycling. There is a reduction in the daily number of car trips.</div>
+          <div class="option-label opt-a"><strong>Option A</strong>I would keep the number of daily car trips unchanged. Consider car to travel as the unique mode of transportation. A usual number of car trips is maintained.</div>
+          <div class="option-label opt-b"><strong>Option B</strong>I would reduce the number of my daily trips by car. There are acceptable alternative options i.e. car, motorbike, public transport, or cycling. There is a reduction in the daily number of car trips.</div>
         </div>
         <input type="range" min="0" max="100" value="50" class="slider-input" id="S5_Case2" data-col="S5_AltModalChoices_vs_CarTrips_Case2" oninput="updateSlider(this)">
         <div class="slider-ticks"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div>
@@ -934,7 +916,7 @@ In the following situations, imagine that you may choose between travelling by c
       <div class="slider-wrap">
         <div class="options-row">
           <div class="option-label opt-a"><strong>Option A</strong>I would keep the number of daily car trips unchanged. Consider car to travel as the unique mode of transportation. A usual number of car trips is maintained.</div>
-          <div class="option-label opt-b"><strong>Option B</strong>I would reduce the number of my daily trips by car. There are car, motorbike, public transport, cycling, or wheeling. There is a significant reduction in the daily number of car trips.</div>
+          <div class="option-label opt-b"><strong>Option B</strong>I would reduce the number of my daily trips by car. There are acceptable alternative options i.e. car, motorbike, public transport, cycling, or wheeling. There is a significant reduction in the daily number of car trips.</div>
         </div>
         <input type="range" min="0" max="100" value="50" class="slider-input" id="S5_Case3" data-col="S5_AltModalChoices_vs_CarTrips_Case3" oninput="updateSlider(this)">
         <div class="slider-ticks"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div>
@@ -952,7 +934,7 @@ In the following situations, imagine that you may choose between travelling by c
       <div class="slider-wrap">
         <div class="options-row">
           <div class="option-label opt-a"><strong>Option A</strong>I would keep the number of daily car trips unchanged. Consider car to travel as the unique mode of transportation. A usual number of car trips is maintained.</div>
-          <div class="option-label opt-b"><strong>Option B</strong>I would reduce the number of my daily trips by car. There are car, motorbike, public transport, cycling, wheeling, cycling, skating, among others. There is a significant reduction in the daily number of car trips.</div>
+          <div class="option-label opt-b"><strong>Option B</strong>I would reduce the number of my daily trips by car. There are acceptable alternative options i.e. car, motorbike, public transport, cycling, wheeling, skating, among others. There is a significant reduction in the daily number of car trips.</div>
         </div>
         <input type="range" min="0" max="100" value="50" class="slider-input" id="S5_Case4" data-col="S5_AltModalChoices_vs_CarTrips_Case4" oninput="updateSlider(this)">
         <div class="slider-ticks"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div>
@@ -967,15 +949,15 @@ In the following situations, imagine that you may choose between travelling by c
       <div class="section-num">06</div>
       <div class="section-title-wrap">
         <h2>Car trips and perception of users´congestion on the bus system</h2>
-        <p style="font-size:13px;color:#888">How your car use relates to the proportion of journeys you make by bus</p>
+        <p style="font-size:13px;color:#888">How your car use relates to your perception of congestion on the bus system.</p>
       </div>
     </div>
     <div class="section-graph">
       <img src="images/grafica6.jpg" alt="Graph: Perception of bus users vs Car trips — linear decrease">
     </div>
     <div class="section-context">
-      Finally,  in the following situations, imagine how your use of the car change. For each situation, indicate the proportion of the remaining trips that you would make by bus.
-In each case, move the slider based on where would you stand between the two options:
+      Finally, in the following situations, imagine how your use of the car changes. For each situation, indicate your perception of congestion on the bus system. 
+      In each case, move the slider based on where you would stand between the two options:
 
     </div>
 
@@ -985,11 +967,11 @@ In each case, move the slider based on where would you stand between the two opt
         <span class="case-badge">Case 1</span>
         <span class="case-desc">Few car trips</span>
       </div>
-      <p class="case-scenario">I would make most of my journeys by bus as it's the best way to get around without a car.</p>
+      <p class="case-scenario">I would perceive high congestion on the bus system, as it becomes the main way to get around without a car.</p>
       <div class="slider-wrap">
         <div class="options-row">
-          <div class="option-label opt-a"><strong>Option A</strong>I would not take any bus trips.</div>
-          <div class="option-label opt-b"><strong>Option B</strong>I would make most of my journeys by bus.</div>
+          <div class="option-label opt-a"><strong>Option A</strong>I would perceive no congestion on the bus system.</div>
+          <div class="option-label opt-b"><strong>Option B</strong>I would perceive very high congestion on the bus system.</div>
         </div>
         <input type="range" min="0" max="100" value="50" class="slider-input" id="S6_Case1" data-col="S6_CarTrips_vs_BusUse_Case1" oninput="updateSlider(this)">
         <div class="slider-ticks"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div>
@@ -1006,8 +988,8 @@ In each case, move the slider based on where would you stand between the two opt
       <p class="case-scenario">You use a car as your primary mode of transport for most of your trips.</p>
       <div class="slider-wrap">
         <div class="options-row">
-          <div class="option-label opt-a"><strong>Option A</strong>I would not take any bus trips.</div>
-          <div class="option-label opt-b"><strong>Option B</strong>I would make some of the remaining journeys by bus.</div>
+          <div class="option-label opt-a"><strong>Option A</strong>I would perceive no congestion on the bus system.</div>
+          <div class="option-label opt-b"><strong>Option B</strong>I would perceive some congestion on the bus system.</div>
         </div>
         <input type="range" min="0" max="100" value="50" class="slider-input" id="S6_Case2" data-col="S6_CarTrips_vs_BusUse_Case2" oninput="updateSlider(this)">
         <div class="slider-ticks"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div>
